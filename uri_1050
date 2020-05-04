@@ -1,0 +1,35 @@
+//uri-1050 solution!!!
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int select;
+    scanf("%d",&select);
+    if(select==61)
+    {
+        printf("Brasilia\n");
+    }
+    if(select==71){
+        printf("Salvador\n");
+    }
+    if(select==11){
+        printf("Sao Paulo\n");
+    }
+    if(select==21){
+        printf("Rio de Janeiro\n");
+    }
+    if(select==32){
+        printf("Juiz de Fora\n");
+    }
+    if(select==19){
+        printf("Campinas\n");
+    }
+    if(select==27){
+        printf("Vitoria\n");
+    }
+    if(select==31){
+        printf("Belo Horizonte\n");
+    }
+    return 0;
+}
+
