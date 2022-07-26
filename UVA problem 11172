@@ -1,0 +1,23 @@
+//UVA problem 11172
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int i=0,a,b,t;
+cin>>t;
+while(!cin.eof()){
+    cin>>a>>b;
+    if(a>b){
+        cout<<">\n";
+    }else if(b>a){
+        cout<<"<\n";
+    }
+    else{
+        cout<<"=\n";
+    }
+    i++;
+}
+    return 0;
+}
